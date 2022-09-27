@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<meta charset="utf=8"/>
+	<meta name="keyword" content="Inholland, homework lecture, html" />
+	<meta name="description" content="contact, forum" />
+	<meta name="author" content="Lucas" />
+	
+</head>
+<body>
+	<form
+	action=""
+	method= "post"
+	>
+		<fieldset>
+			<legend>Contact by email</legend>
+				<h2>Please select the topic you would like to contact us about. So, we can serve you better and faster.</h2>
+					<label for="questions">What is your question about?</label>
+						<select name="questions" id="questions">
+							<option disabled="" selected="" required="">Make a choice</option>
+							<option value="order">I have a question about an order.</option>
+							<option value="computer">I like to have more information about a computer.</option>
+							<option value="other">I have another question.</option>
+						</select>
+		</fieldset>
+	</form>
+	<form
+	action=""
+	method= "post"
+	>
+	<fieldset>
+		<h2>Contact about</h2>
+			<label>Main subject
+				<select>
+					<option disabled="" selected="" required="">Choose topic</option>
+					<option value="order">Ordering and delivery</option>
+					<option value="cancel">Cancel and return</option>
+					<option value="gift">Gift voucher</option>
+					<option value="other">Other question</option>
+				</select>
+			</label>
+	</form>
+	<form
+	action=""
+	method= "post"
+	>
+	<p>Note:*</p>
+		<textarea id="Contact" name="Contact" rows="8" cols="50" placeholder="Write your message.." required=""></textarea>
+	<p><small>The notes can be up to 5000 characters.</small></p>
+		<label>Add an attachment? &#40optional&#41
+	<p>
+		<input type="file"></input>
+	<p><small>Up to 10 MB in size</small></p>
+	</form>
+	<form
+	action=""
+	method= "post"
+	>
+	<p>
+			<label for="name">First and last name*:</label>
+				<input type="text" id="name" name="name" required="" placeholder="Enter your name">
+	<p>
+			<label for="tel">Phone number</label>
+				<input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phone number" size="26">
+	<p><small>More than 80&#37 of our customers share a reachable number, so we can help better.</small></p>
+			<label for="email">E-mail address</label>
+				<input type="text" id="email" name="email" placeholder="Enter your E-mail address" size="26">
+	<p>
+				 <input type="submit" value="> Send email">
+	</fieldset>
+</body>
+		
